@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/moliya/static/css/main.4e1fe661.chunk.css",
-    "main.js": "/moliya/static/js/main.d5fad297.chunk.js",
-    "main.js.map": "/moliya/static/js/main.d5fad297.chunk.js.map",
+    "main.js": "/moliya/static/js/main.9a51fbbf.chunk.js",
+    "main.js.map": "/moliya/static/js/main.9a51fbbf.chunk.js.map",
     "runtime-main.js": "/moliya/static/js/runtime-main.d9660dfe.js",
     "runtime-main.js.map": "/moliya/static/js/runtime-main.d9660dfe.js.map",
     "static/js/2.3048695c.chunk.js": "/moliya/static/js/2.3048695c.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.d9660dfe.js",
     "static/js/2.3048695c.chunk.js",
     "static/css/main.4e1fe661.chunk.css",
-    "static/js/main.d5fad297.chunk.js"
+    "static/js/main.9a51fbbf.chunk.js"
   ]
 }
