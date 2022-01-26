@@ -14,7 +14,7 @@ export default function AppStatusTable() {
   return (
 
     <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
+      <Table sx={{ minWidth: 350 }} size="small" aria-label="a dense table">
         <TableHead >
           <TableRow  >
             <TableCell sx={{fontSize:"30px",padding:"20px"}} >Arizalar holati</TableCell>
@@ -25,18 +25,18 @@ export default function AppStatusTable() {
           {filterAppData.length > 0 &&
             filterAppData.map((row) => (
               <TableRow
-              sx={{fontSize:"20px",padding:"13px"}}
+              sx={{fontSize:"20px",padding:"13px "}}
                 key={row.statusID}
                 sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
               >
                 <TableCell 
-                sx={{fontSize:"20px",padding:"13px"}}
+                sx={{fontSize:"16px",padding:"13px "}}
                 component="th" scope="row">
                   {row.statusID==="WAITING LIST" && "Hal bo'lishi kutilayotgan"}
                   {row.statusID==="PENDING APPROVAL" && "Tasdiqni kutish bosqichida"}
                   {row.statusID==="REJECTED" && "Rad etilgan"}
                   {row.statusID==="APPROVED" && "Ma'qullangan"}
-                  {row.statusID==="EXITED" && "Bolasi 18ga to'lgan va ruyhatdan chiqarilgan"}
+                  {row.statusID==="EXITED" && "Bolasi 18ga to'lgan"}
                   {row.statusID==="EXPIRED" && "Topshirilganiga 1 yildan oshgan"}
                   {row.statusID==="MEMBERS" && "Oila a'zolarini qo'shish bosqichida"}
                   {row.statusID==="OTHER_INCOME" && "Chorva soni bo'yicha"}
@@ -44,7 +44,7 @@ export default function AppStatusTable() {
                   {row.statusID==="REGIONAL_REVIEW" && "Nikoh hujjati kutish bosqichida "}
                   {row.statusID==="REVIEW_APPLICATION" && "2 kunda keyingi bosqichga o'tadigan"}
                 </TableCell>
-                <TableCell sx={{fontWeight:"bold",fontSize:"22px"}} align="right">{row.applicationsCount} ta</TableCell>
+                <TableCell sx={{fontWeight:"bold",fontSize:"16px"}} align="right">{row.applicationsCount} ta</TableCell>
               </TableRow>
             ))}
         </TableBody>
