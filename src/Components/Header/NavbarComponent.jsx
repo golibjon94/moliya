@@ -22,7 +22,7 @@ export default function NavbarComponent({ handleDrawerToggle }) {
         <Box>
         
           <Typography className={classes.logo}>
-           <Link style={{textDecoration:"none",color:"white",cursor:"pointer",letterSpacing:"5px"}} to="/"><h1 >Asosiy sahifa</h1></Link> 
+           <Link style={{textDecoration:"none",color:"white",cursor:"pointer",letterSpacing:"5px"}} to="/moliya"><h1 >Asosiy sahifa</h1></Link> 
           </Typography>
         </Box>
         <Box>

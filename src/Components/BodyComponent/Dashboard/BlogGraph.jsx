@@ -89,7 +89,7 @@ export default function BlogGraph() {
 
           <Divider />
           <Routes>
-            <Route path="/" element={<Map />} />
+            <Route path="/moliya" element={<Map />} />
             <Route path="/regionData/:id" element={<RegionsData />} />
           </Routes>
         </Card>
